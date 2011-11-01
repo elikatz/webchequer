@@ -1,0 +1,94 @@
+body {
+  background:url(../images/waves.png) #7bcaec;
+  background-repeat:repeat-x;
+  color:#FFFFFF;
+  font-family: Arial, Sans-Serif;
+}
+
+#content {
+  width:800px;
+  background:url(../images/tiny_line.png) #7bcaec;
+  background-repeat:repeat-x;
+  margin:0 100px 0 100px;
+  min-height:700px;
+  color:#FFFFFF;
+  -moz-border-radius-topleft:20px; 
+  -moz-border-radius-topright:20px; 
+  -webkit-border-top-left-radius:20px;
+  -webkit-border-top-right-radius:20px;
+}
+
+a {
+  color:#FFFFFF;
+  text-decoration:none;
+}
+
+input {
+  background:#126499;
+  color:#FFFFFF;
+  width:50px;
+  text-align:center;
+}
+
+td{
+  padding:12px;
+}
+
+#nav_bar ul {
+  list-style:none;
+  padding:20px;
+  position:absolute;
+  left:500px;
+}
+
+#logo {
+  position:absolute;
+  left:50px;
+}
+
+#logo img {
+  height:150px;
+}
+
+#nav_bar ul li {
+  margin:20px 0 0 10px;
+  display:inline;
+}
+
+#gpa_form {
+  left:150px;
+  top:150px;
+  padding:20px;
+  position:absolute;
+}
+
+#actions{
+  margin:30px 0 0 50px;
+}
+
+#term_gpa {
+  left:500px;
+  top:200px;
+  padding:15px;
+  width:200px;
+  border:5px solid #7bcaec;
+  color:#FFFFFF;
+  background:#126499;
+  position:absolute;
+}
+
+#current_gpa {
+  position:absolute;
+  left:500px;
+  top:300px;
+}
+
+#error_msg {
+  color:#A60000;
+}
+
+#footer{
+  color:#FFFFFF;
+  margin:0 0 0 300px;
+  text-align:center;
+}

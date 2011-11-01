@@ -1,0 +1,64 @@
+/*
+ *   This CSS file governs the content of the GPA Calc
+ */
+ 
+#content {
+  width:800px;
+  background-color:#00009C;
+  background-repeat:repeat-x;
+  margin:50px 100px 0 100px;
+  min-height:500px;
+  color:#FFFFFF;
+  -moz-border-radius-topleft:20px; 
+  -moz-border-radius-topright:20px; 
+  -webkit-border-top-left-radius:20px;
+  -webkit-border-top-right-radius:20px;
+}
+
+a {
+  color:#FFFFFF;
+  text-decoration:none;
+}
+
+input {
+  background:#126499;
+  color:#FFFFFF;
+  width:50px;
+  text-align:center;
+}
+
+td{
+  padding:12px;
+}
+
+#gpa_form {
+  left:150px;
+  top:75px;
+  padding:20px;
+  position:absolute;
+}
+
+#actions{
+  margin:30px 0 0 50px;
+}
+
+#term_gpa {
+  left:500px;
+  top:200px;
+  padding:15px;
+  width:200px;
+  border:5px solid #7bcaec;
+  color:#FFFFFF;
+  background:#126499;
+  position:absolute;
+}
+
+#current_gpa {
+  position:absolute;
+  left:500px;
+  top:300px;
+}
+
+#error_msg {
+  color:#A60000;
+}
